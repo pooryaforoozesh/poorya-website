@@ -1,0 +1,253 @@
+body{
+    background-color: darkgray;
+    
+}
+
+
+
+
+nav  {
+    
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(198, 226, 43);
+    height: 50px;
+    align-items: center;
+    position:fixed;
+    width: 100%;
+
+}
+h1 {
+  display: flex;
+    margin-left: 150px;
+      font-size: 10vw;
+      padding-left: 150px;
+      justify-content: center;
+      align-items: center;
+  
+      
+  }
+  mark{
+    display: flex;
+    background-color:    rgb(219, 180, 133) ;
+    border-radius: 600%;
+    width: 1500px;
+    justify-content: center;
+    
+
+  }
+
+
+a[href="#america"]{
+      
+   
+display: flex;
+font-weight:bold;
+justify-content: center;
+align-items: center;
+
+ width: 100px;
+ height: 30px;
+ background-color: rgb(238, 231, 231);
+ border-radius: 10px;
+}
+ 
+ a[href="#europe"]{
+    display: flex;
+    font-weight:bold;
+    justify-content: center;
+    align-items: center;
+   
+     width: 100px;
+     height: 30px;
+     background-color: rgb(238, 231, 231);
+     border-radius: 10px;
+ }
+ 
+ a[href="#asia"]{
+    display: flex;
+    font-weight:bold;
+    justify-content: center;
+    align-items: center;
+   
+     width: 100px;
+     height: 30px;
+     background-color: rgb(238, 231, 231);
+     border-radius: 10px;
+ }
+ 
+ a[href="#australia"]{
+    display: flex;
+    font-weight:bold;
+    justify-content: center;
+    align-items: center;
+   
+     width: 100px;
+     height: 30px;
+     background-color: rgb(238, 231, 231);
+     border-radius: 10px;
+ }
+ 
+
+    article {
+        margin-top: 300px;
+        display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: lightpink;
+    height: 800px;
+    
+    }
+   #america{
+        display: flex;
+        box-sizing: border-box;
+        border: 0.5px solid;
+       
+        background-color: rgb(14, 135, 135);
+        justify-content:center; 
+        align-items: center;
+        height: 500px;
+        width: 25%;
+       
+        flex-direction: column;
+     
+        margin-top: 150px;
+        font-size: larger;
+        font-weight:bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+   }
+   .y{
+    position: absolute;
+    margin-top: 400px;
+   }
+  
+   #europe{
+    display: flex;
+    box-sizing: border-box;
+    border: 0.5px solid;
+   
+    background-color: rgb(14, 135, 135);
+    justify-content:center; 
+    align-items: center;
+    height: 500px;
+    width: 25%;
+   
+    flex-direction: column;
+ 
+    margin-top: 150px;
+    font-size: larger;
+    font-weight:bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+   }
+   #asia{
+   display: flex;
+    box-sizing: border-box;
+    border: 0.5px solid;
+   
+    background-color: rgb(14, 135, 135);
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 25%;
+  margin-top: 150px;
+  flex-direction:column;
+  font-size: larger;
+  font-weight:bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+
+   }
+   #australia{
+    display: flex;
+    box-sizing: border-box;
+    border: 0.5px solid;
+   
+    background-color: rgb(14, 135, 135);
+  justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    margin-top: 150px;
+    flex-direction: column;
+   
+    font-size: larger;
+    font-weight:bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+   
+   }
+   
+ 
+    main{
+        background-color: rgb(134, 199, 212);
+        margin-top: 200px;
+        height: 200px;
+    }
+
+
+
+    a{
+        text-decoration: none;
+       }
+       
+       table{
+        background-color: cornflowerblue;
+  width:100%;
+  height: 70%;
+  text-align: center;
+  font-weight: 800;
+  border:1px black solid ;
+  font-size: larger;
+  font-weight:bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+       }
+       tr td {
+        border:1px black solid ;
+        font-size: larger;
+        font-weight:bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+       }
+
+
+
+
+
+       footer {
+       
+    box-sizing: border-box;
+    border:10px ;
+    display: flex;
+    justify-content:space-between;
+    border-radius: 10px;
+    width: 20px;
+    
+    }
+    
+     button{
+        display: flex;
+        background-color: aqua;
+        
+        border-radius: 40%;
+    
+    } 
+    .page3{
+        display: inline;
+        background-color: aqua;
+        border-radius: 10px ;
+        border: 1px black solid;
+       margin-left: 100px;
+       font-size: larger;
+       font-weight: bold;
+    
+    
+    }
+
+
+
+
+
+ 
